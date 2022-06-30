@@ -1,0 +1,54 @@
+        *{margin: 0;padding: 0;border: 0;}
+        .beijing{width: 100%;height: 10000px; background-color: #d4d4d4;}
+        .a{width: 70%;margin: 0 auto;}
+        .b{width: 100%;height: 150px;background-color: #53868a;}
+        .b1{width: 20%;float: left;margin: 30px 0 0 40px;}
+        .b2{width: 60px;height: 60px;border-radius: 50%;border: 2px solid #fff;float: left;}
+        .b2 img{width: 60px;height: 60px;border-radius: 50%;overflow: hidden;}
+        .b3{font-size: 30px;margin-top: 25px;float: right;margin-right: 30px;color: #fff;}
+        .b3 span{font-size: 40px;color: #ff6238;margin: 0 10px 0 10px;font-weight: bold;}
+        .b4{float: right;text-align: right;margin: 10px 50px 0 0;line-height: 30px;color: #fff;}
+        .c{width: 100%;height: 50px;background-color: #53868a;margin-top: 20px;}
+        .c1{float: left;width: 100px;height: 50px;padding: 0 30px 0 30px;}
+        .c1 a{font-size: 24px;text-decoration: none;color: #fff;display: block;line-height: 50px;text-align: center;}
+        .c1:hover{background-color: #ff6238;}
+        .d{width: 100%;margin-top: 20px;}
+        .d1{width: 70%;border: 3px solid rgb(155, 155, 155);float: left;}
+        .d2 img{width: 100%;height: 100%;}
+        .d3{position: relative;top: 380px;right: 510px;}
+        .d4{width: 10px;height: 10px;background-color: #fff;border-radius: 50%;float: left;margin-left: 10px;border: 2px solid rgb(165, 165, 165);}
+        .d5{float: right;width: 28%;height: 160px;border-radius: 15px; background-color: #fff;position: relative;bottom: 13px;}
+        .d51{width: 6px;height: 40px;background-color: red;}
+        .d52{font-size: 18px;float: left;position: relative;bottom: 30px;margin-left: 15px;font-weight: bold;}
+        .dd{width: 75%;height: 36px; font-size: 18px;background-color: rgb(250, 250, 250);border: 3px solid #53868a;position: relative;margin-top: 10px;border-radius: 50px;padding-left: 20px;margin-left: 30px;}
+        .d7{position: relative;width: 26px;height: 26px;float: right;bottom: 34px;right: 55px;}
+        .d8{width: 28%;height: 545px;background-color: #fff;float: right;border-radius: 15px;margin-top: 10px;}
+        .d81{width: 6px;height: 40px;background-color: red;}
+        .d82{font-size: 18px;position: relative;bottom: 30px;margin-left: 15px;font-weight: bold;}
+        .d83{margin-left: 20px;bottom: 20px;position: relative;}
+        .d9{margin-top: 30px;}
+        .d9 span{margin-right: 20px;font-size: 18px;position: relative;}
+        .d91{color: #ff4f1e;}
+        .d92{color: #ff7f16;}
+        .d93{color: #ffc524;}
+        .d9 a{text-decoration: none;position: relative;color: #000;font-size: 16px;}
+        .d9 a:hover{color: chocolate;}
+        .d10{float: right;position: relative;bottom: 452px;right: 30px;}
+        .d10 div{margin-top: 26px;}
+        .d10 img{width: 15px;height: 25px;margin-left: 20px;}
+        .dibu{width: 100%;height: 120px;background-color: #53868a;float: left;position: relative;bottom: 150px;}
+        .db1{font-size: 20px;margin-top: 20px;margin-right: 30px;color: #fff;text-align: center;}
+        .db1 span{font-size: 30px;color: #ff6238;margin: 0 10px 0 10px;font-weight: 500;}
+        .db2{font-size: 16px;color: #fff;text-align: center;margin-top: 10px;}
+        .e{width: 70%;float: left; margin-top: 25px;}
+        .e1{width: 100%;height: 250px;background-color: #fff;border-radius: 15px;}
+        .e2{padding: 20px 0 0 30px;}
+        .e21{width: 160px;height: 210px;border-radius: 15px;float: left;}
+        .e3{width: 80px; font-size: 36px;position: relative;bottom: 210px;left: 220px;}
+        .e4{width: 100px;position: relative;bottom: 245px;right: 510px; float: right; color: rgb(131, 131, 131);font-size: 24px;}
+        .e41{width: 100px;position: relative;bottom: 32px;left: 100px; float: right; color: rgb(131, 131, 131);font-size: 24px;}
+        .e42{color: red;}
+        .e5{width: 200px;font-size: 24px;position: relative;bottom: 200px;left: 220px;color: rgb(131, 131, 131);}
+        .e6{width: 70%;font-size: 18px;float: right;position: relative;bottom: 190px;left: 40px;color: rgb(71, 71, 71);}
+        .bf{width: 100%;height: 1000px;padding-bottom: 200px;}
+        .bofang{width: 100%;height: 100%;}

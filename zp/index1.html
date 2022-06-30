@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <script>
+        $(function(){
+        myVid=document.getElementById("video1");
+        myVid.controls=true;
+        $('.zhuye').click(function(){
+                $(location).attr("href","index.html")
+            })
+        })
+    </script> 
+</head>
+<body>
+    <div class="beijing">
+        <div class="a">
+            <!--头部-->
+            <script type="text/javascript" src="JS/haed.js"></script>
+
+            <div class="bf">
+                <video class="bofang" id="video1">
+                    <source src="https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/08/88/129528808/129528808_da8-1-208.mp4?e=ig8euxZM2rNcNbNBnWdVhwdlhbUHhwdVhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8gNEVE5XREto8z5JZC2X2gkX5L5F1eTX1jkXlsTXHeux_f2o859IMvNC8xNbLEkF6MuwLStj8fqJ0EkX1ftx7Sqr_aio8_&ua=tvproj&uipk=5&nbs=1&deadline=1656435065&gen=playurlv2&os=hwbv&oi=1848246899&trid=ddf66fe4813a48359d47e884ca3d58e0T&mid=0&upsig=d8a99537cc3ff69515fe2d174f8c52ff&uparams=e,ua,uipk,nbs,deadline,gen,os,oi,trid,mid&bvc=vod&nettype=0&bw=259654&orderid=0,3&logo=80000000" type="video/mp4">
+                </video>
+            </div>
+
+            <!--底部-->
+            <script type="text/javascript" src="JS/bottom.js"></script>
+
+        </div>
+    </div>
+</body>
+</html>

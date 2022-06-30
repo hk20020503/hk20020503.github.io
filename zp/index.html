@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAI′S博客</title>
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <script>
+        $(function(){
+            var ym=0;
+            function hk(ym){
+                $('.d2 img').attr({"style":"display: none;"});
+                $('.d4').attr({"style":"background-color: #fff"});
+                $('.d2 img').eq(ym).attr({"style":"display: black;"});
+                $('.d4').eq(ym).attr({"style":"background-color: #000"});
+            }
+            hk(ym)
+            setInterval(function(){
+                if(ym==2){
+                    ym=0
+                }else{
+                    ym=ym+1
+                }
+                hk(ym)
+            },3000);
+
+            //爆火图片5秒隐藏效果
+            var img = document.getElementById("dd");
+            img.style.display="dd"
+            setTimeout(function(){
+                img.style.display = "none";
+            },5000);
+
+            $('.e').click(function(){
+                $(location).attr("href","index1.html")
+            })
+            $('.zhuye').click(function(){
+                $(location).attr("href","index.html")
+            })
+        });
+    </script>
+</head>
+<body>
+    <div class="beijing">
+        <div class="a">
+
+            <!--头部-->
+            <script type="text/javascript" src="JS/haed.js"></script>
+
+            <div class="d">
+                <div class="d1">
+                    <div class="d2"><a href=""><img src="./img/lunbo/1.jpg" /></a></div>
+                    <div class="d2"><a href=""><img src="./img/lunbo/2.jpg" /></a></div>
+                    <div class="d2"><a href=""><img src="./img/lunbo/3.jpg" /></a></div>
+                </div>
+                <div class="d3">
+                    <div class="d4"></div>
+                    <div class="d4"></div>
+                    <div class="d4"></div>
+                </div>
+                <div class="d5">
+                    <div class="d51"></div>
+                    <div class="d52">站内搜索</div>
+                    <div class="d6"><input type="text" placeholder="请输入关键词" class="dd"></div>
+                    <a href=""><img src="./img/搜索.jpg" class="d7"/></a>
+                </div>
+                <div class="d8">
+                    <div class="d81"></div>
+                    <div class="d82">热门推荐</div>
+                    <div class="d83">
+                            <div class="d9"><span class="d91">1</span><a href="https://drive.weixin.qq.com/s?k=AMMAdwfwAAoJEPdfAA">Adobe Premiere Pro CC 2021</a></div>
+                            <div class="d9"><span class="d92">2</span><a href="https://drive.weixin.qq.com/s?k=AMgANQePAA80hnlKOH">Adobe Photoshop 2021</a></div>
+                            <div class="d9"><span class="d93">3</span><a href="https://drive.weixin.qq.com/s?k=AMgANQePAA8o08IuGI&amp;quot;=">3Ds Max2022</a></div>
+                            <div class="d9"><span>4</span><a href="">3Ds Max2022</a></div>
+                            <div class="d9"><span>5</span><a href="">3Ds Max2022</a></div>
+                            <div class="d9"><span>6</span><a href="">3Ds Max2022</a></div>
+                            <div class="d9"><span>7</span><a href="">3Ds Max2022</a></div>
+                            <div class="d9"><span>8</span><a href="">3Ds Max2022</a></div>
+                    </div>
+                    <div class="d10"  id="dd">
+                        <div><img src="./img/爆火.jpg"></div>
+                        <div><img src="./img/爆火.jpg"></div>
+                        <div><img src="./img/爆火.jpg"></div>
+                    </div>
+                </div>
+                <div class="e">
+                    <div class="e1">
+                        <div class="e2"><img src="./img/灵笼/灵笼.JPG" class="e21"></div>
+                        <p class="e3">灵笼</p>
+                        <p class="e4">▶5.1亿<span class="e41"><span class="e42">❤</span>856.7</span></p>
+                        <p class="e5">已完结, 全16话</p>
+                        <p class="e6">不久的未来，人类的世界早已拥挤不堪，迈向星河、寻找新家园的行动迫在眉捷。正当一切有条不紊的推进之时，月相异动，脚下的大地爆发了长达数十年、剧烈的地质变化，人类在这场浩劫中所剩无几。当天地逐渐恢复平静，人们从废墟和深渊中重新踏上了这片熟悉而又陌生的大地。习惯了主宰一切的我们是否还是这个世界的主人？</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--底部-->
+            <script type="text/javascript" src="JS/bottom.js"></script>
+
+        </div>
+    </div>
+</body>
+</html>
